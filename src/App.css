@@ -40,9 +40,12 @@
   margin: auto;
   width: 100%;
   background: #282D35;
-  padding: 57px 27px;
+  padding: 60px 30px;
   color: #fff;
-  border-radius: 0 0 10px 10px;
+  background-image: url("../src/images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position:bottom 50% right;
+  
 }
 
 .main>h1 {
