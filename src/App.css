@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+}
+.container{
+  max-width: 1280px;
+  margin: auto;
+  justify-content: center;
+}
+.nav{
+  margin: auto;
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  align-items: center;
+  background: #21222A;
+  height: 90px;
+  padding: 0 27px;
+}
+.logo-brand{
+  display:inline-flex;
+  gap: 5px;
+}
+.logo-brand >span{
+  color: #61DAFB;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav > h3{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+.main {
+  margin: auto;
+  width: 550px;
+  background: #282D35;
+  padding: 57px 27px;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.main>h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.list>li {
+  padding: 0 10px;
+  padding-block: 16px;
+}
+.list >li::marker {
+  font-size: 1.5rem;
+  color: #61DAFB;
+}
