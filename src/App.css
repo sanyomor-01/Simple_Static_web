@@ -5,14 +5,14 @@
   font-family: "Inter", sans-serif;
 }
 .container{
-  max-width: 1280px;
+  max-width: 1000px;
   margin: auto;
   justify-content: center;
 }
 .nav{
   margin: auto;
   display: flex;
-  width: 550px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   background: #21222A;
@@ -21,7 +21,8 @@
 }
 .logo-brand{
   display:inline-flex;
-  gap: 5px;
+  align-items: center;
+  gap: 7px;
 }
 .logo-brand >span{
   color: #61DAFB;
@@ -37,7 +38,7 @@
 
 .main {
   margin: auto;
-  width: 550px;
+  width: 100%;
   background: #282D35;
   padding: 57px 27px;
   color: #fff;
