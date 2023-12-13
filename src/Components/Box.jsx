@@ -1,12 +1,17 @@
-import React from 'react';
+import React from "react"
 
 export default function Box(props) {
+   const [on, setOn] =React.useState(props.on)
 
-    console.log(props.on)
-    const boxStyles = { 
-        backgroungColor :props.on?  "#222222" : "none"
+    const styles = {
+        backgroundColor: on ? "#222222" : "transparent",
+        cursor: "pointer"
     }
+
+
     return (
-        <div style={boxStyles} className='box'></div>
+        <main className="squares">
+            <div style={styles} className="box" onClick={() => props.toggle(props.id)}></div>
+        </main>
     )
 }
