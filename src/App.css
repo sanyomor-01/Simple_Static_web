@@ -48,6 +48,7 @@
   background-image: url("../src/images/react-icon-large.png");
   background-repeat: no-repeat;
   background-position:bottom 50% right;
+  margin-bottom: 20px;
   
 }
 
@@ -67,13 +68,13 @@
 }
 .squares{
   margin-top:30px;
-  background-color: #61DAFB;
   padding: 10px;
 }
 .box {
   display: inline-block;
-  margin-right: 20px;
-  height: 100px;
-  width: 100px;
-  border: 2px solid gray;
+  margin-right: 10px;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  border: 2px solid #282D35;
 }
